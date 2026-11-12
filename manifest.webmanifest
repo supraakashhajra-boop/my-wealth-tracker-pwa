@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "MY WEALTH TRACKER",
-  "short_name": "Wealth Tracker",
+  "name": "Supraakash Wealth Tracker",
+  "short_name": "Supraakash Wealth",
   "description": "Personal finance and trading journal tracker",
   "start_url": "./",
   "scope": "./",

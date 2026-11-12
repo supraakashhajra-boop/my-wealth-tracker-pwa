@@ -1,4 +1,4 @@
-MY WEALTH TRACKER V3.8.0 — PWA INSTALL FIX PACKAGE
+SUPRAAKASH WEALTH TRACKER V3.8.0 — PWA INSTALL FIX PACKAGE
 This package keeps the app files and all three icons in the repository root.
 
 IMPORTANT: Upload the CONTENTS of this folder directly to the repository root:
@@ -24,3 +24,6 @@ DATA SAFETY:
 Keep the old app and a fresh JSON backup until the hosted PWA has been rechecked.
 Never upload backup JSON, PINs, passwords, or private financial data to GitHub.
 This is a static PWA; no cloud sync, Zerodha API, or live market feed is included.
+
+
+नया संस्करण: Supraakash Wealth Tracker v3.8.1 (Smooth Motion Edition)। इसमें opening splash और हल्के page/card/button transitions जोड़े गए हैं। Accounting, transaction, portfolio और backup logic को जानबूझकर नहीं बदला गया है।
