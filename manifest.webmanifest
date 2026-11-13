@@ -1,9 +1,9 @@
 {
-  "id": "./",
+  "id": "./?app=supraakash-wealth-tracker-v412-final",
   "name": "SUPRAAKASH WEALTH TRACKER",
   "short_name": "SUPRAAKASH",
-  "description": "SUPRAAKASH WEALTH TRACKER — Trading, transactions, portfolio and performance.",
-  "start_url": "./",
+  "description": "SUPRAAKASH WEALTH TRACKER V4.1.2 — Trading, transactions, portfolio and performance.",
+  "start_url": "./?app=supraakash-wealth-tracker-v412-final",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

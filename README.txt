@@ -1,31 +1,44 @@
-SUPRAAKASH WEALTH TRACKER — V4.1.2 FINAL PWA
-=============================================
+SUPRAAKASH WEALTH TRACKER — V4.1.2 PWA INSTALL FIX
+===================================================
 
-This package contains the approved V4.1.2 app with the newly approved Navy Blue + Gold app icon.
+This package keeps the approved V4.1.2 app HTML and adds a UNIQUE PWA APP ID.
+The unique manifest ID is intended to stop Chrome from reusing the older already-installed V3.8.0 app identity.
 
-FILES TO UPLOAD TO THE ROOT OF YOUR EXISTING GITHUB PAGES REPOSITORY:
+UPLOAD TO THE ROOT OF THE SAME GITHUB PAGES REPOSITORY:
 - index.html
 - manifest.webmanifest
 - sw.js
-- icons/ (folder containing icon-192.png and icon-512.png)
+- icons/ (icon-192.png and icon-512.png)
 
-IMPORTANT BEFORE UPLOADING:
-1. Open the currently installed/working app.
-2. Export a backup from the app and keep it safely.
-3. Do not delete the old repository or change its GitHub Pages URL.
-4. Upload/replace the files above in the SAME repository and SAME published path.
-5. Commit the changes and wait for GitHub Pages to publish.
-6. Open the same HTTPS Pages URL in Chrome on Android.
-7. Refresh the page. If the old icon remains, close the app/browser tab, reopen the URL, and allow the service worker to update.
-8. Install/Add to Home screen from Chrome.
-9. Open the installed app and verify existing records. If records are missing, restore your backup.
+Do not create a new repository. Keep the same GitHub Pages repository and URL.
 
-DATA SAFETY:
-- The app's existing application code and V4.1.2 workflows are preserved in this package.
-- This PWA package does not add cloud sync or Zerodha live data.
-- Browser local data is tied to the website origin. Keep the same GitHub Pages URL and do not clear site data.
-- Keep your exported backup even after installation.
+BEFORE UPLOADING:
+1. Open the old working app, if possible, and export a JSON backup.
+2. Keep that backup safely. Do not clear Chrome site data or uninstall the old app yet.
+
+UPLOAD:
+1. Extract this ZIP.
+2. In the SAME repository, replace index.html, manifest.webmanifest, and sw.js.
+3. Replace both files inside icons/.
+4. Commit the changes to main branch.
+5. Wait for GitHub Pages deployment to finish.
+
+INSTALL THE NEW APP:
+1. Open Chrome and visit:
+   https://supraakashhajra-boop.github.io/my-wealth-tracker-pwa/
+2. Reload the page once after deployment.
+3. Open Chrome menu (three dots).
+4. Choose "Install app" (not "Create shortcut").
+5. The new app should identify itself as SUPRAAKASH / SUPRAAKASH WEALTH TRACKER.
+6. Keep the old app until the new app has been checked and existing data is confirmed.
+
+IMPORTANT:
+- This package uses a new manifest app ID: ./?app=supraakash-wealth-tracker-v412-final
+- The app's V4.1.2 workflows and data model are not intentionally changed.
+- The service-worker cache name is bumped to trigger a fresh app-shell cache.
+- The app still uses browser local storage; keep the same site origin and do not clear site data.
+- No cloud sync or live Zerodha integration is added.
 
 APP VERSION: V4.1.2
 APP NAME: SUPRAAKASH WEALTH TRACKER
-ICON: Approved final Navy Blue + Gold design
+APP ICON: Approved final Navy Blue + Gold design
